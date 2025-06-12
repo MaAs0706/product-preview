@@ -1,0 +1,107 @@
+body{
+    font-family:Arial,  sans-serif;
+    background-color: #f5e9e2;
+    display :flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+.product-card{
+    display: flex;
+    width: 600px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image-section {
+    width: 50%;
+    background-color: #f7f2e9;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-section{
+    width: 270px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.category{
+    font-size:12px;
+    letter-spacing: 7px;
+    color: grey;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700; /* Playfair Display bold */
+    margin: 0 0 20px;
+    color: #1c232b;
+    line-height: 1.1;
+    margin-left: 10px;
+    
+}
+
+.description{
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    color: grey;
+    margin-right: -20px;
+    margin-left: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.current-price{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Bold weight to match the image */
+    font-size: 32px;
+    color: #3d8168;
+    margin-right: 20px;
+}
+
+.original-price {
+    margin-right:40px ;
+    font-size: 14px;
+    color: #6c7289;
+    text-decoration: line-through;
+}
+.add-to-cart{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+   border:none;
+   color: #f7f2e9;
+   background-color: #3d8168;
+   font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-icon{
+    background-color: #f5e9e2;
+}

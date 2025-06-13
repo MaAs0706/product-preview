@@ -38,7 +38,7 @@ body{
 }
 
 .category{
-    font-size:12px;
+    font-size:10px;
     letter-spacing: 7px;
     color: grey;
     margin-bottom: 10px;
@@ -103,7 +103,8 @@ h1 {
 }
 
 .cart-icon{
-    background-color: #f5e9e2;
+    background-color: #3d8168;
+    color: #f5e9e2;
 }
 .add-to-cart:hover {
     background-color: #2a5b45;
